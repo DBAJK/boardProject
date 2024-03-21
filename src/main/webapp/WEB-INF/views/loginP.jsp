@@ -67,8 +67,8 @@
     <div class="login-wrapper">
         <h2>Login</h2>
         <form method="post" action="mainBoard" id="login-form">
-            <input type="text" name="userName" placeholder="ID">
-            <input type="password" name="userPassword" placeholder="Password">
+            <input type="text" name="userName" id="userName" placeholder="ID">
+            <input type="password" name="userPassword" id="userPassword" placeholder="Password">
             <label for="remember-check">
                 <input type="checkbox" id="remember-check">아이디 저장하기
             </label>
